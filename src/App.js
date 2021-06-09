@@ -11,8 +11,9 @@ import { fetchData } from './api';
 
 class App extends React.Component {
 
-    componentDidMount() {
+    async componentDidMount() {
         const data = await fetchData();
+        console.log(data);
     }
     render() {
         return (
