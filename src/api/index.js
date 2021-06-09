@@ -13,7 +13,7 @@ export const fetchData = async () => {
         lastUpdate: data.lastUpdate,
       }
 
-      return response;
+      return modifiedData;
     
     } catch (error) {
 
