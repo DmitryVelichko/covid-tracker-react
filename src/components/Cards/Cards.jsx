@@ -1,9 +1,11 @@
 import React from 'react';
-import { Card, CardContent, Typography, Grid } from '@material-ui/core';
+import { Card, CardContent, Typography, Grid, StylesProvider } from '@material-ui/core';
 
 const Cards = () => {
     return (
-        <h1>Cards</h1>
+        <div className={styles.container}>
+
+        </div>
     )
 }
 
