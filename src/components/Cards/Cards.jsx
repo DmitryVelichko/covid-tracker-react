@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card } from '@material-ui/core';
+import { Card, CardContent } from '@material-ui/core';
 
 const Cards = () => {
     return (
