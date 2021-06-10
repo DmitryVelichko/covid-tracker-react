@@ -5,9 +5,9 @@ import styles from './Cards.module.css'
 const Cards = () => {
     return (
         <div className={styles.container}>
-            <Grid>
-                <Grid>
-                    
+            <Grid container spacing={3} justify='center'>
+                <Grid item component={Card}>
+
                 </Grid>
             </Grid>
         </div>
