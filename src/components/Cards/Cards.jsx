@@ -16,6 +16,7 @@ const Cards = ({ data: {confirmed, recovered, deaths, lastUpdate} }) => {
                         <Typography variant="h5">
                             <CountUp 
                                 start={0}
+                                end={confirmed.value}
                             />
                         </Typography>
                         <Typography color="textSecondary">REAL DATE</Typography>
