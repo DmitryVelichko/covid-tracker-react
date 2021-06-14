@@ -14,7 +14,14 @@ const Chart = () => {
         fetchAPI();
     });
 
-        const lineChart = (); 
+        const lineChart = (
+            <Line 
+                data={{
+                    labels: '',
+                    datasets: [{}, {}],
+                }}
+            />
+        ); 
 
     return (
         <h1>Chart</h1>
