@@ -15,12 +15,14 @@ const Chart = () => {
     });
 
         const lineChart = (
-            <Line 
+            dailyData[0]
+              ? (
+                <Line 
                 data={{
                     labels: '',
                     datasets: [{}, {}],
                 }}
-            />
+              />) : null
         ); 
 
     return (
