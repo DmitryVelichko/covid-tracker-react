@@ -20,7 +20,11 @@ const Chart = () => {
                 <Line 
                 data={{
                     labels: dailyData(({ date }) => date),
-                    datasets: [{}, {}],
+                    datasets: [{
+                      data: dailyData(({ confirmed }) => confirmed),
+                    }, {
+
+                    }],
                 }}
               />) : null
         ); 
