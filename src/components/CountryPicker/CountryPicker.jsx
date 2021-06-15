@@ -8,11 +8,12 @@ const CountryPicker = () => {
     const [fetchedCountries, setFetchedCountries] = useState([]);
 
     useEffect(() => {
-        const fetchCountries = async () => {
-            setFetchedCountries(await countries);
+        const fetchAPI= async () => {
+            setFetchedCountries(await fetchCountries());
         }
-        fetchCountries();
-    });
+        
+        fetchAPI();
+    }, [setFetchedCountries]);
 
     return (
         <FormControl className={styles.formControl}>
