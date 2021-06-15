@@ -10,7 +10,7 @@ export const fetchData = async () => {
       return { confirmed, recovered, deaths, lastUpdate };
     
     } catch (error) {
-
+      console.log(error);
     }
 }
 
@@ -27,6 +27,7 @@ export const fetchDailyData = async () => {
     return modifiedData;
 
   } catch (error) {
-
+    console.log(error);
   }
 }
+
