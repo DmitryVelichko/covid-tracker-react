@@ -40,7 +40,7 @@ const Chart = ({ data, country }) => {
         ? (
             <Bar 
               data={{
-
+                labels: ['Infected', 'Recovered', 'Deaths']
               }}
               options={{
                   legend: { display: false },
