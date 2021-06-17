@@ -34,6 +34,13 @@ const Chart = ({ data, country }) => {
                 }}
               />) : null
         ); 
+    
+    const barChart = (
+        data.confirmed
+        ? (
+            <Bar />
+        ) : null
+    )
 
     return (
         <div className={styles.container}>
