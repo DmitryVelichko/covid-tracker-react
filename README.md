@@ -1,3 +1,6 @@
+Covid Tracker build with ReactJS, Hooks, Material UI, Charts.js, and external API.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
