@@ -1,4 +1,10 @@
-Covid Tracker build with ReactJS, Hooks, Material UI, Charts.js, and external API.
+Covid Tracker built with ReactJS, Hooks, Material UI, Charts.js, and external API.
+
+Mobile responsive.
+
+![image](https://user-images.githubusercontent.com/42185328/122640764-e0b80800-d109-11eb-8bde-4eaf56299c45.png)
+
+
 
 
 # Getting Started with Create React App
